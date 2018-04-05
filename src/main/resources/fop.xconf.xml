@@ -64,7 +64,13 @@ Based on the fop.xconf from the distribution zip.
         <!--
         FreeSans.ttf is from Xubuntu's /usr/share/fonts/truetype/freefont folder
         -->
+        <!-- use this for classpath based configuration
+        <font kerning="yes" embed-url="classpath:/FreeSans.ttf">
+         -->
+        <!-- use this for file system based configuration 
         <font kerning="yes" embed-url="FreeSans.ttf">
+         -->
+         <font kerning="yes" embed-url="classpath:/FreeSans.ttf">
           <font-triplet name="FreeSans" style="normal" weight="normal"/>
         </font>
 
